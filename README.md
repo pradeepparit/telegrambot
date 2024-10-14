@@ -1,2 +1,2 @@
-# Telegrambot
-TelegramBot: Order Management A Python-based Telegram chatbot for streamlined product ordering. Users register, select products, specify quantities, and confirm orders. Data stored securely in MySQL (XAMPP). Efficient and user-friendly!
+## Telegram Bot for Product Ordering
+This Telegram bot allows users to register, login, and place orders for products. Users can select from available products, specify quantities, and confirm orders, which are then stored in a MySQL database.
