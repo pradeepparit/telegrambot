@@ -7,3 +7,8 @@ This Telegram bot allows users to register, login, and place orders for products
 - Product Selection: Users can choose from a list of products (e.g., Milk, Butter, Dahi, Bread, Cheese) and specify quantities.
 - Order Confirmation: Users can confirm their selections, and the order is stored in the database.
 - Exit Option: Users can exit the bot at any time
+
+## Technologies Used
+- Python: Programming language used for bot development.
+- Python-Telegram-Bot: Library for interacting with Telegram's Bot API.
+- MySQL: Database used for storing user data and order details.
