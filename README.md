@@ -12,3 +12,12 @@ This Telegram bot allows users to register, login, and place orders for products
 - Python: Programming language used for bot development.
 - Python-Telegram-Bot: Library for interacting with Telegram's Bot API.
 - MySQL: Database used for storing user data and order details.
+
+## Setup Instructions
+###  Prerequisites
+1. Python 3.x: Install Python from the official website.
+2. MySQL: Install MySQL from the official website.
+3. Python Packages: Install the necessary Python packages:
+```
+pip install mysql-connector-python python-telegram-bot
+```
