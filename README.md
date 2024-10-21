@@ -21,3 +21,9 @@ This Telegram bot allows users to register, login, and place orders for products
 ```
 pip install mysql-connector-python python-telegram-bot
 ```
+### Database Setup
+1. Create the Database:
+- Open MySQL and create a new database for the bot:
+```
+CREATE DATABASE telegrambot;
+```
