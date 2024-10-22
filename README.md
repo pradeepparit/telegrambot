@@ -27,3 +27,26 @@ pip install mysql-connector-python python-telegram-bot
 ```
 CREATE DATABASE telegrambot;
 ```
+2. Create Tables:
+- Create tables for storing user data and order details.
+-Example table structures:
+```
+CREATE TABLE users (
+  ID INT AUTO_INCREMENT PRIMARY KEY,
+  NAME VARCHAR(255),
+  MOBILE_NO VARCHAR(20),
+  EMAIL VARCHAR(255),
+  ADDRESS VARCHAR(255),
+  CITY VARCHAR(255),
+  CHAT_ID VARCHAR(50)
+);
+
+CREATE TABLE order_list (
+  ORDER_ID INT AUTO_INCREMENT PRIMARY KEY,
+  USER_ID INT,
+  PRODUCTS TEXT,
+  TOTAL INT,
+  FOREIGN KEY (USER_ID) REFERENCES users(ID)
+);
+
+```
