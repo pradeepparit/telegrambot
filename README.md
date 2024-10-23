@@ -50,3 +50,10 @@ CREATE TABLE order_list (
 );
 
 ```
+## Bot Setup
+1. Telegram Bot Token: Obtain a token for your bot by chatting with BotFather on Telegram.
+
+2. Replace the Token in Code: Insert your bot token into the ```Updater``` instance in the ```main()``` function:
+   ```
+   updater = Updater('YOUR_BOT_TOKEN', use_context=True)
+   ```
